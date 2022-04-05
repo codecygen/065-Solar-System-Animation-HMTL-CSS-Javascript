@@ -22,7 +22,7 @@ body {
     top: calc(50% - 100px);
     left: calc(50% - 100px);
 
-    animation: rotate-orbit 2s linear infinite;
+    animation: rotate-orbit 8s linear infinite;
 }
 
 #orbital {
@@ -44,12 +44,12 @@ body {
 }
 
 #range-number {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     background-color: white;
     color: black;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
     border-radius: 100%; 
 }
 

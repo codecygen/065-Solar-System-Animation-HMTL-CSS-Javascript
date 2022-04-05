@@ -7,7 +7,7 @@ const rangeNum = document.querySelector("#range-number");
 const orbit = document.querySelector("#orbit");
 
 input.addEventListener('input', e => {
-    rangeNum.innerHTML = e.target.value
+    rangeNum.innerHTML = `${e.target.value} sec`
 });
 
 button.addEventListener('click', () => {
