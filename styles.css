@@ -1,0 +1,68 @@
+body {
+    background-color: #757581;
+}
+
+#star {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#orbit {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed black;
+    border-radius: 100%;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+
+    animation: rotate-orbit 2s linear infinite;
+}
+
+#orbital {
+    height: 50px;
+    width: 50px;
+    background-color: #113c41;
+    margin: auto;
+    transform: translate(0, -50%);
+    border-radius: 100%;
+}
+
+#input-field {
+    margin: auto; 
+    display: flex; 
+    flex-direction: 
+    column; 
+    width: 100px; 
+    align-items: center;
+}
+
+#range-number {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 100%; 
+}
+
+button {
+    margin: 15px 0 0;
+}
+
+@keyframes rotate-orbit {
+    from {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Simulation</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Solar system simulation. Only one planet is required.
+    Illustration: https://gph.is/2bjd2Yp
+
+    a) Create a webpage with a circle centered on the page.
+    b) Add another circle and have it rotating around the center circle in a 2D orbit.
+    c)* Allow the webpage visitor to change the rotation speed.
+    d)* Make the rotation speed of the outer circle variable over time. -->
+
+    <div id="input-field">
+        <p id="range-number"></p>
+        <input type="range" placeholder="Enter orbital travel second" min="1" max="8" required>
+        <button>Change</button>
+    </div>
+
+
+    <div id="star"></div>
+
+    <div id="orbit">
+        <div id="orbital"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
